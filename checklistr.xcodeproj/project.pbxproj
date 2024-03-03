@@ -14,6 +14,28 @@
 		105852712B93DB2B0018330E /* checklistrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105852702B93DB2B0018330E /* checklistrTests.swift */; };
 		1058527B2B93DB2B0018330E /* checklistrUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1058527A2B93DB2B0018330E /* checklistrUITests.swift */; };
 		1058527D2B93DB2B0018330E /* checklistrUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1058527C2B93DB2B0018330E /* checklistrUITestsLaunchTests.swift */; };
+		105852902B93DE3F0018330E /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 1058528F2B93DE3F0018330E /* FirebaseAnalytics */; };
+		105852922B93DE3F0018330E /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 105852912B93DE3F0018330E /* FirebaseAuth */; };
+		105852942B93DE3F0018330E /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 105852932B93DE3F0018330E /* FirebaseDatabase */; };
+		105852962B93DE3F0018330E /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 105852952B93DE3F0018330E /* FirebaseFirestore */; };
+		105852982B93E0570018330E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 105852972B93E0570018330E /* GoogleService-Info.plist */; };
+		105852992B93E0570018330E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 105852972B93E0570018330E /* GoogleService-Info.plist */; };
+		1058529A2B93E0570018330E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 105852972B93E0570018330E /* GoogleService-Info.plist */; };
+		1058529C2B93E2D30018330E /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1058529B2B93E2D30018330E /* LoginView.swift */; };
+		1058529D2B93E2D30018330E /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1058529B2B93E2D30018330E /* LoginView.swift */; };
+		1058529E2B93E2D30018330E /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1058529B2B93E2D30018330E /* LoginView.swift */; };
+		105852A02B93E5BE0018330E /* CreateAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1058529F2B93E5BE0018330E /* CreateAccountView.swift */; };
+		105852A12B93E5BE0018330E /* CreateAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1058529F2B93E5BE0018330E /* CreateAccountView.swift */; };
+		105852A22B93E5BE0018330E /* CreateAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1058529F2B93E5BE0018330E /* CreateAccountView.swift */; };
+		105852A82B94BF7B0018330E /* MainContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105852A72B94BF7B0018330E /* MainContentView.swift */; };
+		105852A92B94BF7B0018330E /* MainContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105852A72B94BF7B0018330E /* MainContentView.swift */; };
+		105852AA2B94BF7B0018330E /* MainContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105852A72B94BF7B0018330E /* MainContentView.swift */; };
+		105852AC2B94C1560018330E /* ChecklistCreation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105852AB2B94C1560018330E /* ChecklistCreation.swift */; };
+		105852AD2B94C1560018330E /* ChecklistCreation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105852AB2B94C1560018330E /* ChecklistCreation.swift */; };
+		105852AE2B94C1560018330E /* ChecklistCreation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105852AB2B94C1560018330E /* ChecklistCreation.swift */; };
+		105852B12B94C4960018330E /* ChecklistModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105852B02B94C4960018330E /* ChecklistModel.swift */; };
+		105852B22B94C4960018330E /* ChecklistModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105852B02B94C4960018330E /* ChecklistModel.swift */; };
+		105852B32B94C4960018330E /* ChecklistModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105852B02B94C4960018330E /* ChecklistModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +66,13 @@
 		105852762B93DB2B0018330E /* checklistrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = checklistrUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1058527A2B93DB2B0018330E /* checklistrUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = checklistrUITests.swift; sourceTree = "<group>"; };
 		1058527C2B93DB2B0018330E /* checklistrUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = checklistrUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		105852972B93E0570018330E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1058529B2B93E2D30018330E /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		1058529F2B93E5BE0018330E /* CreateAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountView.swift; sourceTree = "<group>"; };
+		105852A72B94BF7B0018330E /* MainContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainContentView.swift; sourceTree = "<group>"; };
+		105852AB2B94C1560018330E /* ChecklistCreation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistCreation.swift; sourceTree = "<group>"; };
+		105852AF2B94C3850018330E /* notes.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = notes.md; sourceTree = "<group>"; };
+		105852B02B94C4960018330E /* ChecklistModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +80,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				105852942B93DE3F0018330E /* FirebaseDatabase in Frameworks */,
+				105852962B93DE3F0018330E /* FirebaseFirestore in Frameworks */,
+				105852902B93DE3F0018330E /* FirebaseAnalytics in Frameworks */,
+				105852922B93DE3F0018330E /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,7 +130,14 @@
 				1058525F2B93DB280018330E /* checklistrApp.swift */,
 				105852612B93DB280018330E /* ContentView.swift */,
 				105852632B93DB2B0018330E /* Assets.xcassets */,
+				105852972B93E0570018330E /* GoogleService-Info.plist */,
 				105852652B93DB2B0018330E /* Preview Content */,
+				1058529B2B93E2D30018330E /* LoginView.swift */,
+				1058529F2B93E5BE0018330E /* CreateAccountView.swift */,
+				105852A72B94BF7B0018330E /* MainContentView.swift */,
+				105852AB2B94C1560018330E /* ChecklistCreation.swift */,
+				105852AF2B94C3850018330E /* notes.md */,
+				105852B02B94C4960018330E /* ChecklistModel.swift */,
 			);
 			path = checklistr;
 			sourceTree = "<group>";
@@ -143,6 +183,12 @@
 			dependencies = (
 			);
 			name = checklistr;
+			packageProductDependencies = (
+				1058528F2B93DE3F0018330E /* FirebaseAnalytics */,
+				105852912B93DE3F0018330E /* FirebaseAuth */,
+				105852932B93DE3F0018330E /* FirebaseDatabase */,
+				105852952B93DE3F0018330E /* FirebaseFirestore */,
+			);
 			productName = checklistr;
 			productReference = 1058525C2B93DB280018330E /* checklistr.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +261,9 @@
 				Base,
 			);
 			mainGroup = 105852532B93DB280018330E;
+			packageReferences = (
+				1058528E2B93DE3F0018330E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 1058525D2B93DB280018330E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,6 +282,7 @@
 			files = (
 				105852672B93DB2B0018330E /* Preview Assets.xcassets in Resources */,
 				105852642B93DB2B0018330E /* Assets.xcassets in Resources */,
+				105852982B93E0570018330E /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +290,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				105852992B93E0570018330E /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +298,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1058529A2B93E0570018330E /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +309,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1058529C2B93E2D30018330E /* LoginView.swift in Sources */,
+				105852AC2B94C1560018330E /* ChecklistCreation.swift in Sources */,
 				105852622B93DB280018330E /* ContentView.swift in Sources */,
+				105852A02B93E5BE0018330E /* CreateAccountView.swift in Sources */,
 				105852602B93DB280018330E /* checklistrApp.swift in Sources */,
+				105852A82B94BF7B0018330E /* MainContentView.swift in Sources */,
+				105852B12B94C4960018330E /* ChecklistModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +323,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				105852AD2B94C1560018330E /* ChecklistCreation.swift in Sources */,
+				105852A12B93E5BE0018330E /* CreateAccountView.swift in Sources */,
+				105852B22B94C4960018330E /* ChecklistModel.swift in Sources */,
+				1058529D2B93E2D30018330E /* LoginView.swift in Sources */,
 				105852712B93DB2B0018330E /* checklistrTests.swift in Sources */,
+				105852A92B94BF7B0018330E /* MainContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +336,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1058529E2B93E2D30018330E /* LoginView.swift in Sources */,
+				105852AE2B94C1560018330E /* ChecklistCreation.swift in Sources */,
 				1058527D2B93DB2B0018330E /* checklistrUITestsLaunchTests.swift in Sources */,
+				105852A22B93E5BE0018330E /* CreateAccountView.swift in Sources */,
 				1058527B2B93DB2B0018330E /* checklistrUITests.swift in Sources */,
+				105852AA2B94BF7B0018330E /* MainContentView.swift in Sources */,
+				105852B32B94C4960018330E /* ChecklistModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -577,6 +644,40 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1058528E2B93DE3F0018330E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1058528F2B93DE3F0018330E /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1058528E2B93DE3F0018330E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		105852912B93DE3F0018330E /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1058528E2B93DE3F0018330E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		105852932B93DE3F0018330E /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1058528E2B93DE3F0018330E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		105852952B93DE3F0018330E /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1058528E2B93DE3F0018330E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 105852542B93DB280018330E /* Project object */;
 }

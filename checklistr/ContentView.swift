@@ -6,16 +6,20 @@
 //
 
 import SwiftUI
+import FirebaseAuth
 
 struct ContentView: View {
+    @State private var isAuthenticated: Bool = false
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        if isAuthenticated {
+            MainContentView()
+        } else {
+            NavigationStack{
+                LoginView(isAuthenticated: $isAuthenticated)
+            }
         }
-        .padding()
+        
     }
 }
 
